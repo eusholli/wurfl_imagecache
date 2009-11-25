@@ -1,0 +1,19 @@
+when going through actions to act on them
+look for strings starting with wurfl_
+remove wurfl_
+get capability value
+substitute capability value into string
+
+when imagecache_cache is called
+remove everything after __
+check dest if exists
+
+when generating url
+scan actions for wurfl_
+get capability value
+add _capability value to prefix string
+
+
+_wurfl_imagecache_get_capability_value($capability) {
+
+}

@@ -1,0 +1,14 @@
+; $Id: wurfl_imagecache.info,v 1.5 2008/05/30 15:46:59 dopry Exp $
+name = wurfl_ImageCache
+description = Dynamic image manipulator and cache allowing use of WURFL capabilities in action definitions.
+package = ImageCache
+dependencies[] = imageapi
+dependencies[] = wurfl
+core = 6.x
+
+; Information added by drupal.org packaging script on 2009-04-17
+version = "6.x-2.0-beta9"
+core = "6.x"
+project = "imagecache"
+datestamp = "1239992507"
+
